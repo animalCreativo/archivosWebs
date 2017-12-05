@@ -1,15 +1,37 @@
 body {
   font-family: 'Open Sans', sans-serif;
-  background-color: white; }
+  background-color: #FCFCFC; }
 
 button#btnSend {
   color: white; }
+
+#deeplink1 ol, #deeplink1 ul {
+  -webkit-column-count: 2;
+  -webkit-column-gap: 20px;
+  -moz-column-count: 2;
+  -moz-column-gap: 20px;
+  -o-column-count: 2;
+  -o-column-gap: 20px;
+  column-count: 2;
+  column-gap: 20px;
+  list-style-position: inside; }
+
+#deeplink1 a {
+  color: #7cb342; }
+
+#deeplink1 {
+  color: #424242; }
 
 input#phone::placeholder, input#name::placeholder, input#lastName::placeholder, input#rut::placeholder, input#email::placeholder {
   color: #004A98; }
 
 input#phone, input#name, input#lastName, input#rut, input#email {
   color: #004A98; }
+
+.columns.small-12.text-center.align-self-middle a {
+  color: black;
+  font-size: 18px;
+  font-weight: bold; }
 
 .button {
   background-color: #004A98;
